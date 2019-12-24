@@ -1,0 +1,53 @@
+The DATA Analysis Process
+    1.Asking proper and relevent questions to extract information that can be used further
+    2.Data Wrangling/Data Munging=Cleaning Data
+    3.Exploratory Data Analysis=exploring data,deriving corelations,etc
+    4.Drawing conclusions
+    5.Communicating results.....
+
+
+<1>ASKING QUESTIONS:-
+    features contributing analysis
+    features not important
+    features with strong corelation
+    preprocessing required or not...
+    manipulation/engineering required....
+    
+must have subject matter expertise(SME)
+experience
+
+
+<2>DATA WRANGLING/MUNGING
+    transforming and mapping data from one raw data form to another format with the intension of making it much more appropriate for analysis.
+    1.Gathering Data
+        CSV,fetching from API,web scarping,Databases(using sql to analyse)
+    2.Assessing Data
+        finding number of rows/columns(shape)
+        column's data types,check for missing values(info())
+        duplicate data(is_unique)
+        memory occupied by dataset(info)
+        high level maths overview of data(describe)
+    3.Cleaning Data
+        missing data(mean,mode,median)
+        removing duplicate data(drop_duplicates)
+        incorrect data type(astype)
+        
+<3>EXPLORATORY DATA ANALYSIS
+    1.Explore data
+        finding corelation
+        doing univariate and multivariate analysis
+        visualising data by plotting graphs
+    2.Augment data(FEATURE ENGINEERING)
+      Removing outliers(box plots)
+      merging dataframes
+      adding new column
+<4>DRAWING CONCLUIONS
+    using machine learning algorithms
+    inferential staistics
+    descriptive statistics(data analysis process)
+
+<5>COMMUNICATING RESULTS/DATA STORYTELLNG
+    in person
+    reports
+    blog posts
+    PPTs/slides deck
